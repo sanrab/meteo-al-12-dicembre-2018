@@ -1,4 +1,5 @@
 # meteo-al-12-dicembre-2018
+
 sistemi di acquisizione dati meteo
 
 (1) Raspberry Pi ZeroW (Raspbian) + Arduino Mega 2560 + Aurel RX 4MM5/F receiver + transmitter (XY-FS) module  [RFLink] + BMP180 I2C + LCD serial 4x20 + Domoticz
