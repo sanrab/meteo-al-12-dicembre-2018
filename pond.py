@@ -29,9 +29,9 @@ class PondService(StdService):
 				line = f.readline()
 				values = line.split(',')
 				inTemp = float(values[0])
-        inTemp = inTemp*9/5+32 # C to Fahrenheit
+        			inTemp = inTemp*9/5+32 # C to Fahrenheit
 				barometer = float(values[1])
-        barometer = barometer*0.02952998751 # mBar to inHg
+        			barometer = barometer*0.02952998751 # mBar to inHg
 			syslog.syslog(syslog.LOG_DEBUG, "pond: found values of %s" % values)
 			event.record['inTemp'] = inTemp
 			event.record['barometer'] = barometer
