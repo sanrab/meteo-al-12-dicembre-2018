@@ -25,3 +25,5 @@ barometer = barometer*0.02952998751
 
 modificato /etc/rc.local in modo che esegua
 /home/sandro/domoticz_bmp_to_file.sh &
+
+quindi weewx legge dati sensori con weewx-sdr + dati BMP180 di domoticz (raspi-meteo)
