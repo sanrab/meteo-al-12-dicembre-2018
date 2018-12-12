@@ -23,5 +23,5 @@ inTemp = inTemp*9/5+32
 
 barometer = barometer*0.02952998751
 
-moodificato /etc/rc.local in modo che esegua
+modificato /etc/rc.local in modo che esegua
 /home/sandro/domoticz_bmp_to_file.sh &
