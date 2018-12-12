@@ -18,7 +18,9 @@ do
 done
 
 modificato pond.py per conversione C --> Fahrenheit e mBar --> inHg per weewx
+
 inTemp = inTemp*9/5+32
+
 barometer = barometer*0.02952998751
 
 moodificato /etc/rc.local in modo che esegua
