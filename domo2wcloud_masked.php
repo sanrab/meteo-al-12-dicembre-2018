@@ -1,6 +1,5 @@
 #!/usr/bin/php
 
-
 <?php
 
 /*
@@ -13,14 +12,9 @@ $wcloud_id = "XXXXXXX";
 $wcloud_key = "XXXXXXX";
 $login_url = "$server_url/wid/$wcloud_id/key/$wcloud_key";
 $domo_ip_port = "http://domoticz_ip:domoticz_port";
-$temp_file = "data.json";
-
 
 $json_string = file_get_contents("$domo_ip_port/json.htm?type=devices&used=true&filter=all&favorite=1");
 $parsed_json = json_decode($json_string, true);
-$data = fopen ($temp_file, "w");
-fwrite ($data, print_R($parsed_json, TRUE));
-fclose ($data);
 
 //	parse variables
 
